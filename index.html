@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +9,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<!-- Lightbox popup -->
-
-<div id="lightbox" class="lightbox">
-    <span class="lightbox-close">&times;</span>
-    <img class="lightbox-img" src="" alt="Expanded artwork">
-</div>
-
-<script src="script.js"></script>
-
 <body>
+
+    <!-- lightbox for image popups -->
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" src="" alt="Expanded artwork">
+    </div>
+
+    <!-- title -->
+
     <div class="container">
-        <h1>Angel's Art Page</h1>
-        
+        <h1>Angel's Art Page</h1>  
     <div class="intro">
+
+    <!-- intro -->
+
     <p>
     Angel is a self-taught artist who began her creative journey in 2015 under the username,
     <a href="https://www.instagram.com/narcorn.candyz/" target="_blank" rel="noopener noreferrer"><strong>@narcorn.candyz</strong></a> 
@@ -31,14 +35,87 @@
     exploring new techniques, developing her skills, and sharing her passion for creativity and visual storytelling.
     </p>
 
-    </div>
+    <!-- social media links-->
 
+    </div>
         <div class="socials">
         <p>
         Instagram: <a href="https://www.instagram.com/angell0w0_/" target="_blank" rel="noopener noreferrer"><strong>@angell0w0_</strong></a>
         Tiktok:<a href="https://www.tiktok.com/@angowoll" target="_blank" rel="noopener noreferrer"><strong>@angowoll</strong></a>.
         </p>
         </div>
+
+    <!-- recent artworks-->
+
+        <div class="artwork">
+            <div class="artwork-header">
+                <h2 class="artwork-title">Recent Artworks</h2>
+            </div>
+
+            <div class="artwork-row">
+                <div class="artwork-images" data-link="https://www.tiktok.com/@angowoll/video/7646077448479722765?is_from_webapp=1&sender_device=pc&web_id=7649419386172589582">
+                    <video 
+                        preload="metadata"                
+                        src="videos/bleach_dragon.MP4" 
+                        class="artwork-image device"
+                        autoplay 
+                        loop 
+                        muted 
+                        playsinline>
+                    </video>
+                </div>
+
+                <div class="artwork-images" data-link="https://www.tiktok.com/@angowoll/video/7641375713949453581?is_from_webapp=1&sender_device=pc">
+                    <video 
+                        preload="metadata"
+                        src="videos/snake_lily.mp4"
+                        class="artwork-image device"
+                        autoplay 
+                        loop 
+                        muted 
+                        playsinline>
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div class="artwork-images">
+
+            <div class="artwork-row">
+                <img src="images/art15.png" class="popup-img" alt="Art 15">
+                <img src="images/art16.png" class="popup-img" alt="Art 16">
+                <img src="images/art18.png" class="popup-img" alt="Art 18">
+            </div>
+
+            <div class="artwork-row">
+                <img src="images/art13.png" class="popup-img" alt="Art 13">
+                <img src="images/art17.png" class="popup-img" alt="Art 17">
+                <img src="images/art19.png" class="popup-img" alt="Art 19">
+
+            </div>
+
+            <div class="artwork-row">
+                <img src="images/art14.png" class="popup-img" alt="Art 14">
+                <img src="images/art12.png" class="popup-img" alt="Art 12">
+            </div>
+        </div>
+
+        <div class="artwork-images"></div>
+            <div class="artwork-row">
+                <video 
+                    preload="metadata"                
+                    src="videos/animation.mp4" 
+                    class="artwork-image device"
+                    style="width: 500px;"
+                    autoplay 
+                    loop 
+                    muted 
+                    playsinline>
+                </video>
+            </div>
+        
+
+    <!-- background -->
 
         <div class="artwork">
             <div class="artwork-header">
@@ -85,6 +162,7 @@
         </div>
 
         </div>
+
     </div>
         
     <script src="script.js"></script>

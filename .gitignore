@@ -1,0 +1,31 @@
+# media folders
+images/
+videos/
+assets/images/
+assets/videos/
+
+# individual media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Node
+node_modules/
+package-lock.json
+
+# logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# build/output folders
+dist/
+build/

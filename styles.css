@@ -10,7 +10,7 @@
 
 body {
     font-family: "DM Sans", sans-serif;
-    color: #1a1a1a;
+    color: #090520;
     line-height: 1.6;
 
     background-image: url("images/background.png");
@@ -22,12 +22,13 @@ body {
 
 .container {
     max-width: 850px;
+    height: 3400px;
     margin: 0 auto;
     padding: 60px 60px;
 
-    background: rgba(200, 200, 200, 0.25);
+    background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(px);
+    -webkit-backdrop-filter: blur(8px);
 
     border-radius:5px;
 }
@@ -82,7 +83,7 @@ a:hover {
 
 .artwork-tag {
     font-size: 0.9rem;
-    color: #1e0b27;
+    color: #2b1852;
     font-style: italic;
     font-weight: 300;
     margin-right: 50px;
@@ -100,6 +101,15 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.artwork-image.device {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
 }
 
 .artwork-row {

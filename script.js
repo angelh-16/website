@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    console.log('Portfolio page loaded');
+    console.log('Art page loaded');
 
     // smooth scroll
     document.documentElement.style.scrollBehavior = 'smooth';
 
-    // clickable project videos
-    document.querySelectorAll('.project-images').forEach(project => {
-        project.addEventListener('click', () => {
-            window.open(project.dataset.link, '_blank', 'noopener');
-        });
+    // clickable artwork videos
+    document.querySelectorAll('.artwork-images[data-link]').forEach(container => {
+    container.addEventListener('click', () => {
+        window.open(container.dataset.link, '_blank', 'noopener');
     });
+});
 
     // lightbox functionality
     const lightbox = document.getElementById("lightbox");
