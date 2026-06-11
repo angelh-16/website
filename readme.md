@@ -21,3 +21,9 @@ View the website here: https://angelartpage.netlify.app
 - Embedded animations and videos
 - Social media links for easy navigation
 - Custom HTML, CSS, and JavaScript implementation
+
+## Screenshots
+![Website Screenshot](images/screenshot1.png)
+![Website Screenshot](images/screenshot2.png)
+![Website Screenshot](images/screenshot3.png)
+
