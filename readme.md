@@ -23,7 +23,7 @@ View the website here: https://angelartpage.netlify.app
 - Custom HTML, CSS, and JavaScript implementation
 
 ## Screenshots
-![Website Screenshot](images/screenshot1.png)
-![Website Screenshot](images/screenshot2.png)
-![Website Screenshot](images/screenshot3.png)
+![Website Screenshot](images2/screenshot1.png)
+![Website Screenshot](images2/screenshot2.png)
+![Website Screenshot](images2/screenshot3.png)
 

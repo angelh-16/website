@@ -1,19 +1,6 @@
 # media folders
 images/
 videos/
-assets/images/
-assets/videos/
-
-# individual media files
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.svg
-*.mp4
-*.mov
-*.avi
-*.webm
 
 # Node
 node_modules/
