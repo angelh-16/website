@@ -20,7 +20,6 @@ View the website here: https://angelartpage.netlify.app
 - Interactive artwork gallery with clickable zoom in
 - Embedded animations and videos
 - Social media links for easy navigation
-- Custom HTML, CSS, and JavaScript implementation
 
 ## Screenshots
 ![screenshot](images2/screenshot1.png)
