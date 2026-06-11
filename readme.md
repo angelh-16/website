@@ -22,7 +22,7 @@ View the website here: https://angelartpage.netlify.app
 - Social media links for easy navigation
 
 ## Screenshots
-![screenshot](images2/screenshot1.png)
-![screenshot](images2/screenshot2.png)
-![screenshot](images2/screenshot3.png)
+![screenshot](images2/Screenshot1.png)
+![screenshot](images2/Screenshot2.png)
+![screenshot](images2/Screenshot3.png)
 
